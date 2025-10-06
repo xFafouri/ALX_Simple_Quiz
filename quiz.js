@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", function()
 
     if (userAnswer === correctAnswer) 
     {
-      feedback.textContent = "✅ Correct! Well done.";
+      feedback.textContent = "Correct! Well done.";
       feedback.style.color = "#28a745";
     } 
     else {
-      feedback.textContent = "❌ Incorrect. The correct answer is 4.";
+      feedback.textContent = "That's incorrect. Try again!";
       feedback.style.color = "#dc3545";
     }
   }
